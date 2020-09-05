@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+        crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" href="res/logo.png"/>
+        <script type="text/javascript" src="js/controle_menu.js"></script>
+        <title>Site Responsivo</title>
+    </head>
+    <body>
+            <header class="cabecalho">
+                <h1 class="logo">CI Módulos de Injeção Eletrônica</h1>
+                <button class="btn-menu" onclick="abrirMenu();"><i class="fa fa-bars fa-lg"></i></button>
+                <nav class="menu">
+                    <a class="btn-close" onclick="fecharMenu();">
+                        <i class="fa fa-times"></i></a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="banner">
+                <div class="title">
+                    <h2>Tecnologia Automotiva</h2>
+                    <h3>CI Módulos de Injeção Eletrônica</h3>
+                </div>
+                <div class="buttons">
+                    <button class="btn-cadastrar">Cadastrar
+                        <i class="fa fa-arrow-circle-right"></i>    
+                    </button>
+                    <button class="btn-sobre">Sobre
+                        <i class="fa fa-question-circle"></i>
+                    </button>
+                </div>
+            </div>
+            <main class="servicos">
+                <article class="servico">
+                    <a href="#"><img id="modulos" src="res/750.jpg"/></a>
+                    <div class="inner">
+                        <a href="#">Módulos de Injeção</a>
+                        <h4>Testes e Reparos</h4>
+                        <p>Se você necessita de um serviço de reparo de módulos,
+                            com rapidez e qualidade, traga seu veículo para que
+                            possamos avaliar.
+                        </p>
+                    </div>
+                </article>
+                <article class="servico">
+                    <a href="#"><img id="bloqueadores" src="res/car_key.jpg"/></a>
+                    <div class="inner">
+                        <a href="#">Bloqueadores</a>
+                        <h4>Testes e Reparos</h4>
+                        <p>Oferecemos também o serviço de reparo de bloqueadores.
+                            Solicite uma visita técnica.
+                        </p>
+                    </div>
+                </article>
+            </main>
+            <section class="newsletter">
+                <h2>Inscreva-se agora!</h2>
+                <h3>Receba novidades, dicas e muito mais</h3>
+                <form>
+                    <input type="email" name="email" placeholder="Seu e-mail"/>
+                    <button>Cadastrar</button>
+                </form>
+            </section>
+            <footer class="rodape">
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+
+                </div>
+                <p class="copyright">Copyright Gavilon 2020. 
+                    Todos os direitos reservados.</p>
+            </footer>
+    </body>
+</html>
